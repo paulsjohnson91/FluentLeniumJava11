@@ -26,7 +26,7 @@ repositories {
 ext.cucumberVersion = '3.0.2'
 ext.fluentVersion = '4.0.0'
 dependencies {
-
+    testCompile group: 'junit', name: 'junit', version: '4.12'
     compile group: 'org.testng', name: 'testng', version: '6.14.3'
     compile group: 'org.fluentlenium', name: 'fluentlenium-assertj', version: "${fluentVersion}"
     compile group: 'org.fluentlenium', name: 'fluentlenium-testng', version: "${fluentVersion}"
